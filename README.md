@@ -1,2 +1,2 @@
-polygomap
+PolygoMap
 =========
