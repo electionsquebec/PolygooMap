@@ -17,6 +17,32 @@ Requirement
 Simple example
 ---------
 
-**Soon to come...**
+```javascript
+new polygooMap({
+	map: map,
+	onClick: function(e){
+		console.log("onClick event Fired!");
+		console.log(e.latLng.lat());
+		console.log(e.latLng.lng());
+	},
+	onMouseOut:{
+		fillColor: "#2F3CCE",
+		fillOpacity: 0.3,
+		strokeWeight: 2,
+		strokeOpacity: 1,
+		strokeColor: "black"
+	},
+	onMouseOver:function(e){
+		console.log("onMouseOver event Fired!");
+		this.setOptions({
+			fillColor: "purple",
+			fillOpacity: 0.3,
+			strokeWeight: 1,
+			strokeOpacity: 0.5,
+			strokeColor: "red"
+		});
+	}
+});
+```
 
-#### For more details on how to use the library or for more example head to our [website](http://www.google.com)
+#### For more examples and details on how to use the library head to our [website](http://www.google.com)
