@@ -5,7 +5,7 @@ PolygooMap lets you easely create interactive Google Maps with multiple polygons
 
 Keep in mind that the library is still and will always be in developpement.
 
-**Website:** [Soon to come](http://www.google.com)
+**Website:** [http://dgeq.org/polygooMap/](http://dgeq.org/polygooMap/)
 
 Requirement
 ---------
@@ -45,4 +45,4 @@ new polygooMap({
 });
 ```
 
-#### For more examples and details on how to use the library head to our [website](http://www.google.com)
+#### For more examples and details on how to use the library head to our [website](http://dgeq.org/polygooMap/)
